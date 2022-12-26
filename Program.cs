@@ -3,11 +3,11 @@
 Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных индексах.
 */
 
-Console.WriteLine("Введите размер массива");
+Console.WriteLine("Введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
-Console.WriteLine("Вот наш массив: ");
+Console.WriteLine("Задан массив: ");
 PrintArray(numbers);
 int sum = 0;
 
